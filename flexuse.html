@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Use</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      .login-form {
+        display: flex;
+        flex-direction: column;
+      }
+      .login-form input,
+      button {
+        font-size: 1.5em;
+        margin-top: 10px;
+        padding-left: 10px;
+        border-radius: 5px;
+      }
+      .login-form button {
+        background-color: brown;
+        color: white;
+        font-weight: 700;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <form class="login-form" action="">
+        <h2>Login</h2>
+        <input type="name" placeholder="Enter Your Name" />
+        <input
+          type="password"
+          placeholder="Enter Your Password"
+          name=""
+          id=""
+        />
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </body>
+</html>
